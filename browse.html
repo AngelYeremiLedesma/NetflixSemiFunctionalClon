@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="shortcut icon" href="src/netflix.png">
+    <title>Browse clon</title>
+</head>
+<body>
+    <video onloadedmetadata="this.muted=true" autoplay loop>
+        <source src="src/wallstreet.mp4">
+    </video>
+    <div id="fondo"></div>
+    <header>
+        <nav>
+            <div class="links">
+                <img src="src/logo.png" alt="">
+                <a href="#">Inicio</a>
+                <a href="#">Series</a>
+                <a href="#">Películas</a>
+                <a href="#">Novedades populares</a>
+                <a href="#">Mi lista</a>
+            </div>
+            <div class="perfiles">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round" id="search-symbol">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="10" cy="10" r="7" />
+                    <line x1="21" y1="21" x2="15" y2="15" />
+                </svg>
+                <input type="text" placeholder="Títulos, personajes,géneros" id="searcher">
+                <a href="#">Niños</a>
+                <img src="src/notificacion.png" id="bell">
+                <img src="src/cara.png">
+                <img src="src/inverted-triangle.png" id="triangle">
+            </div>
+        </nav>
+    </header>
+        <main>
+            <img src="src/wolf.jpg">
+            <p>Jordan Belfort es un ambicioso corredor de bolsa que asciende a niveles enormes de riqueza, pero sus métodos no son del todo legales.</p>
+            <div class="spaced-buttons">
+                <div class="white-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-play" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 4v16l13 -8z" />
+                    </svg>
+                    <a href="#">Reproducir</a>
+                </div>
+                <div class="gray-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-info-circle" width="24" height="24" viewBox="0 0 24 24" stroke-width="3" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                        <polyline points="11 12 12 12 12 16 13 16" />
+                    </svg>
+                    <a href="#">Más información</a>
+                </div>
+            </div>
+        </main>
+        <section>
+            <div class="container">
+                <h2>Mejor calificadas</h2>
+                <div class="inline-carrusel">
+                    <img src="/src/right-arrow.png" class="turned-arrow">    
+                    <div class="carrusel" id="top-rated">
+                    </div>
+                    <img src="/src/right-arrow.png" class="arrow" id="topb">   
+                </div>
+            </div>
+            <div id="genres">
+            </div>    
+        </section>
+    <footer>
+        <div class="legal">
+            <a href="#">Audio y subtítulos</a>
+            <a href="#">Audio descriptivo</a>
+            <a href="#">Centro de ayuda</a>
+            <a href="#">Tarjetas de regalo</a>
+            <a href="#">Prensa</a>
+            <a href="#">Relaciones con inversionistas</a>
+            <a href="#">Empleo</a>
+            <a href="#">Términos de uso</a>
+            <a href="#">Privacidad</a>
+            <a href="#">Avisos legales</a>
+            <a href="#">Preferencias de cookies</a>
+            <a href="#">Información corporativa</a>
+            <a href="#">Contáctanos</a>
+        </div>
+        <section class="button">
+            <a href="#" id="service-code">Código de servicio</a>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/axios.js"></script>
+    <script src="js/browse.js"></script>
+</body>
+</html>

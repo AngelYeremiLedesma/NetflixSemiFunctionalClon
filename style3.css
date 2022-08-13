@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,1);
+}
+
+#fondo:before {
+	content:'';
+    position: absolute;
+    top: 0;
+    height: 40vw;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to top,rgba(0,0,0,1),rgba(50,50,50,0.1));
+    z-index: -1;
+}
+
+video{
+    width: 98.7vw;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+}
+
+nav{
+    position:fixed;
+    width: 100vw;
+    top: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+div.links img{
+    height: 60px;
+    margin: 0px 30px;
+}
+
+input{
+    opacity: 0;
+    width: 0px;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.782);
+    outline: none;
+    border: white 1px solid;
+    padding: 8px 15px 8px 15px;
+    transition: all 0.5s ease;
+}
+
+#bell{
+    height: 25px;
+}
+
+#triangle{
+    height: 12px;
+    margin: 0;
+}
+
+div.perfiles svg{
+    position: relative;
+    left: 33px;
+    z-index: 2;
+}
+
+div.perfiles img{
+    height: 32px;
+    border-radius: 5px;
+    margin: 0px 30px 0px 0px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+main img{
+    height: 25vh;
+}
+
+div.white-button{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+div.white-button a{
+    color: black;
+    font-weight: bold;
+}
+
+div.gray-button{
+    background-color: #6D6D6EB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 170px;
+}
+
+div.spaced-buttons{
+    display: flex;
+    padding-bottom: 60px;
+}
+
+main{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+}
+
+.inline-carrusel,.inline-backdrop-size{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+div.inline-backdrop-size{
+    height: 150px;
+}
+
+div.carousel-container{
+    height: 100%;
+    margin-left: 20px;
+    width: 93.5vw;
+}
+
+div.container{
+    margin: 10px 0px 45px 0px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 10;
+    margin-left: 63px;
+}
+
+div.carrusel{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    transition: all .5s ease;
+    transform: translateX(0px)
+}
+
+.turned-arrow{
+    transform: scaleX(-1);
+    visibility: hidden;
+}
+
+.arrow,.turned-arrow{
+    opacity: 0.6;
+    padding:  90px 5px;
+    z-index: 2;
+    background-color: black;
+    border-radius:px;
+    cursor: pointer;
+}
+
+img.turned-arrow:hover,img.arrow:hover{
+    opacity: 0.8;
+    transform: scaleY(1.1);
+}
+
+img.turned-arrow:hover{
+    transform: scale(-1,1.1);
+}
+
+div.carrusel img{
+    margin-right: 7px;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 150px;
+}
+
+#top-rated{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+div#top-rated img{
+    border-radius: 0px 2px 2px 0px;
+    cursor: pointer;
+    height: 200px;
+}
+
+.shadow-letter{
+    position: relative;
+    z-index: -1;
+    left: 43px;
+    top: -45px;
+    color: rgb(12,12,12);
+    text-shadow: 4px 0 0 rgb(118, 118, 118), -4px 0 0 rgb(118, 118, 118), 0 4px 0 rgb(118, 118, 118), 0 -4px 0 rgb(118, 118, 118), 2px 2px rgb(118, 118, 118), -2px -2px 0 rgb(118, 118, 118), 2px -2px 0 rgb(118, 118, 118), -2px 2px 0 rgb(118, 118, 118);
+    font-size: 260px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+}
+
+footer{
+    margin: 0;
+    padding: 50px 15vw;
+}
+
+footer a{
+    color: #757575;
+    width: 17vw;
+    margin: 10px 0px;
+    font-size: 13px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+div.legal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.button{
+    margin-top: 6vh;
+}
+
+section a#service-code{
+    margin-top: 100px;
+    font-size: 14px;
+    border: #808080 1px solid;
+    padding: 7px 10px;
+}
+
+section a#service-code:hover{
+    border: white 1px solid;
+    text-decoration: none;
+    color: white;
+}

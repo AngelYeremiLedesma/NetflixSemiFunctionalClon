@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="src/netflix.png">
+    <title>Netflix clon</title>
+</head>
+<body>
+    <div class="gradiente">
+        <header>
+            <div class="logo">
+                <img src="src/logo.png" alt="Logo de Netflix">
+            </div>
+            <div class="container">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="12" r="9" />
+                    <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                    <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                    <path d="M11.5 3a17 17 0 0 0 0 18" />
+                    <path d="M12.5 3a17 17 0 0 1 0 18" />
+                </svg>
+                <select name="selector1" id="selector1">
+                    <option value="0">Español</option>
+                    <option value="1">English</option>
+                </select>
+                <div class="boton">
+                    <a href="login.html">Iniciar sesión</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1>Películas y series ilimitadas<br> y mucho más.</h1>
+            </section>
+            <section>
+                <h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
+                <h4>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix</h4>
+                <form class="correo">
+                    <input type="email" name="email" id="" placeholder="Email" >
+                    <div class="rojo">
+                        <a href="#">Comenzar ></a>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+    <section class="container">
+        <div class="text">
+            <h2>Disfruta en tu TV.</h2>
+            <h3>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h3>
+        </div>
+        <div class="animation">
+            <img src="src/tv.png">
+            <video onloadedmetadata="this.muted=false" autoplay loop id="tv">
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v">
+            </video>
+        </div>
+    </section>
+    <section class="container">
+        <img src="src/mobile.jpg">
+        <div class="text">
+            <h2>Descarga tus series para verlas offline.</h2>
+            <h3>Guarda tu contenido favorito y tendrás siempre algo para ver.</h3>
+        </div>
+    </section>
+    <section class="container">
+        <div class="text">
+            <h2>Disfruta donde quieras.</h2>
+            <h3>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.</h3>
+        </div>
+        <div class="animation">
+            <img src="src/device.png">
+            <video onloadedmetadata="this.muted=true" autoplay loop id="pc">
+                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v">
+            </video>
+        </div>
+    </section>
+    <section class="container">
+        <img src="src/kids.png">
+        <div class="text">
+            <h2>Crea perfiles para niños.</h2>
+            <h3>Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h3>
+        </div>
+    </section>
+    <section class="questions">
+        <h2>Preguntas frecuentes</h2>
+        <div class="grises">
+            <h3>¿Qué es Netflix? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <div class="grises">
+            <h3>¿Cuánto cuesta Netflix? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <div class="grises">
+            <h3>¿Dónde puedo ver Netflix? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <div class="grises">
+            <h3>¿Cómo cancelo? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <div class="grises">
+            <h3>¿Qué puedo ver en Netflix? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <div class="grises">
+            <h3>¿Es bueno Netflix para los niños? </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plus" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="12" y1="5" x2="12" y2="19" />
+                <line x1="5" y1="12" x2="19" y2="12" />
+            </svg>
+        </div>
+        <h4>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix</h4>
+        <form class="correo">
+            <input type="email" name="email" id="" placeholder="Email" >
+            <div class="rojo">
+                <a href="#">Comenzar ></a>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>¿Preguntas? Llama al 800-062-2406</p>
+        <div class="legal">
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Centro de ayuda</a>
+            <a href="#">Cuenta</a>
+            <a href="#">Prensa</a>
+            <a href="#">Relaciones con inversionistas</a>
+            <a href="#">Empleo</a>
+            <a href="#">Canjear tarjetas de regalo</a>
+            <a href="#">Comprar tarjetas de regalo</a>
+            <a href="#">Formas de ver</a>
+            <a href="#">Términos de uso</a>
+            <a href="#">Privacidad</a>
+            <a href="#">Preferencias de cookies</a>
+            <a href="#">Información corporativa</a>
+            <a href="#">Contáctanos</a>
+            <a href="#">Prueba de velocidad</a>
+            <a href="#">Avisos legales</a>
+            <a href="#">Solo en Netflix</a>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <line x1="3.6" y1="9" x2="20.4" y2="9" />
+            <line x1="3.6" y1="15" x2="20.4" y2="15" />
+            <path d="M11.5 3a17 17 0 0 0 0 18" />
+            <path d="M12.5 3a17 17 0 0 1 0 18" />
+        </svg>
+        <select name="selector2" id="selector2">
+            <option value="0">Español</option>
+            <option value="1">English</option>
+        </select>
+    </footer>
+</body>
+</html>

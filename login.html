@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" href="src/netflix.png">
+    <title>Netflix login</title>
+</head>
+<body>
+    <div id="fondo"></div>
+    <header>
+        <img src="src/logo.png" alt="Logo de Netflix" id="logo">
+    </header>
+    <main>
+        <div class="forms">
+            <h1>Inicia sesión</h1>
+            <input type="email" class="grises" placeholder="Email o número de teléfono">
+            <input type="password" class="grises" id="password" placeholder="Contraseña"> 
+            <div class="boton-rojo">
+                <a href="users.html" class="no-links">Iniciar sesión</a>
+            </div>
+            <div class="espaciados">
+                <div class="checkbox">
+                    <input type="checkbox" name="Recuérdame" id="checkbox1"><label for="checkbox1">Recuérdame</label>
+                </div>
+                <a href="" id="help">¿Necesitas ayuda?</a>
+            </div>
+            <div class="container2">
+                <div class="espaciados">
+                    <p>¿Primera vez en Netflix?</p>
+                    <a href="">Suscríbete ahora</a>
+                </div>
+                <div class="captcha">
+                    <p class="captcha">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a href="">Más info.</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>¿Preguntas? Llama al 800-062-2406</p>
+        <div class="legal">
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Centro de ayuda</a>
+            <a href="#">Términos de uso</a>
+            <a href="#">Privacidad</a>
+            <br>
+            <a href="#">Preferencias de cookies</a>
+            <a href="#">Información corporativa</a>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#757575" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="12" cy="12" r="9" />
+            <line x1="3.6" y1="9" x2="20.4" y2="9" />
+            <line x1="3.6" y1="15" x2="20.4" y2="15" />
+            <path d="M11.5 3a17 17 0 0 0 0 18" />
+            <path d="M12.5 3a17 17 0 0 1 0 18" />
+        </svg>
+        <select name="selector1" id="selector1">
+            <option value="0">Español</option>
+            <option value="1">English</option>
+        </select>
+    </footer>
+</body>
+</html>

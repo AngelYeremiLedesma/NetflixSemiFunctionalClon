@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    background-image: url("src/Fondo.png");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#fondo:before {
+	content:'';
+    position: fixed;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+#logo{
+    height: 100px;
+    padding: 0px 0px 0px 32px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    color: #737373;
+}
+
+div.forms{
+    display: flex;
+    flex-direction: column;
+    background-color: RGBA(0,0,0,0.7);
+    border-radius: 6px;
+    padding: 60px 68px 40px 68px;
+}
+
+h1{
+    color: white;
+}
+
+div.forms .grises{
+    margin-bottom: 16px;
+    height: 30px;
+    width: 270px;
+    outline: none;
+    border: solid 1px #333333;
+    border-radius: 3px;
+    padding: 8px 20px 8px 20px;
+    font-size: 16px;
+    background-color: #333333;
+}
+
+div.boton-rojo{
+    padding: 15px;
+    border-radius: 3px;
+    border-color: #E50914;
+    background-color: #E50914;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+label{
+    font-size: 13px;
+}
+
+a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.no-links{
+    color: white;
+    font-size: 16px;
+}
+
+a.no-links:hover{
+    text-decoration: none;
+}
+
+.espaciados{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#help{
+    font-size: 13px;
+    color: #737373;
+}
+
+div.espaciados a{
+    font-size: 16px;
+    color: white;
+}
+
+div.captcha p{
+    width: 310px;
+    font-size: 13px;
+}
+
+p.captcha a{
+    color: #0071EB;
+}
+
+div.container2{
+    margin: 60px 0px;
+}
+
+footer{
+    background-color: RGBA(0,0,0,0.7);
+    color: white;
+    bottom: 0;
+    margin-top: 90px;
+    padding: 30px 52px 50px 52px;
+}
+
+p{
+    margin: 10px 0px;
+    color: #737373;
+}
+
+div.legal a{
+    width: 250px;
+    margin: 10px 0px;
+}
+
+div.legal{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+footer svg{
+    position: relative;
+    left: 22px;
+    top: 5px;
+    z-index: 2;
+}
+
+footer select{
+    position: relative;
+    left: -25px;
+    height: 50px;
+    background-color: #000000dd;
+    color: #757575;
+    border: solid #494949 1px;
+    border-radius: 2px;
+    padding: 5px 20px 5px 40px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+

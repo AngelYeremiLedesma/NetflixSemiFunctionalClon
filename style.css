@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+div.gradiente{
+    margin: 0;
+    background: linear-gradient(to top,rgba(10,10,10,0.95), rgba(43, 43, 43, 0.429), rgba(10,10,10,0.95)), url(src/fondo.png);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 56px 0px 56px;
+}
+
+div.logo img{
+    height: 72px;
+}
+
+header select{
+    height: 35px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.412);
+    color: white;
+    border: solid white 1px;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+
+header svg{
+    position: relative;
+    left: 22px;
+}
+
+div.boton{
+    padding: 7px 17px;
+    border-radius: 3px;
+    border-color: #E50914;
+    background-color: #E50914;
+    display: inline;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+div.container{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 75px 0px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 19px;
+}
+
+form.correo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+form.correo input{
+    height: 47px;
+    width: 437px;
+    padding: 2px 10px 0px 10px;
+    font-size: 16px;
+}
+
+div.rojo{
+    padding: 11.5px 20px;
+    border-color: #E50914;
+    background-color: #E50914;
+}
+
+div.rojo a{
+    font-size: 26px;
+}
+
+section.container{
+    background-color: black;
+}
+
+section.container h2{
+    margin: 0px;
+    font-size: 50px;
+}
+
+section.container h3{
+    margin: 0px;
+    font-size: 26px;
+}
+
+section.container{
+    display: flex;
+    height: 400px;
+    padding: 20px 70px 40px 70px;
+    margin: 5px 0px;
+    justify-content: space-between;
+}
+
+section.container img{
+    height: 400px;
+    z-index: 1;
+}
+
+div.animation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video#tv{
+    position: absolute;
+    height: 232px;
+}
+
+video#pc{
+    position: absolute;
+    padding-bottom: 125px;
+    height: 190px;
+}
+
+div.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+div.text h3{
+    margin-top: 20px;
+}
+
+section.questions{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+section.questions h2{
+    font-size: 50px;
+}
+
+div.grises{
+    display: flex;
+    background-color: #303030;
+    width: 700px;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+div.grises h3{
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    color: #757575;
+    padding: 50px 15vw;
+}
+
+footer a{
+    color: #757575;
+    width: 17vw;
+    margin: 10px 0px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+div.legal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer svg{
+    position: relative;
+    left: 22px;
+    top: 5px;
+}
+
+footer select{
+    position: relative;
+    left: -20px;
+    height: 50px;
+    background-color: #3030300f;
+    color: #757575;
+    border: solid #494949 1px;
+    border-radius: 2px;
+    padding: 5px 20px 5px 40px;
+    font-size: 18px;
+}
+
+
+
+
+
